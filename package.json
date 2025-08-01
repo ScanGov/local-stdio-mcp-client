@@ -1,0 +1,23 @@
+{
+  "name": "scangovmcp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "scangovmcp": "./build/index.js"
+  },
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  }
+}
